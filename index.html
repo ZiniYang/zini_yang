@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zini Yang</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="container" id="top">
+    <nav>
+      <a href="index.html#top">Home</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="assets/Zini_Yang_CV.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+
+    <header>
+      <div class="profile-photo">
+        <img src="assets/images/zini_new.jpg" alt="Zini Yang" class="profile-img" />
+        <p class="profile-caption">MS @ Duke CS & Econ</p>
+      </div>
+      <div class="header-content">
+        <h1>Zini Yang</h1>
+        <p class="bio">
+          I am a master's student in Computer Science and Economics at Duke University, working with
+          <a href="https://www.emilywenger.com/" target="_blank" rel="noopener">Dr. Emily Wenger</a> at the
+          <a href="https://arguslab.pratt.duke.edu/" target="_blank" rel="noopener">Argus Lab</a>.
+          My research bridges computational social science and AI systems, focusing on game theory, behavioral economics,
+          and network science to build socially aware and trustworthy AI.
+        </p>
+        <p class="bio">
+          Previously, I studied mathematical economics at Shanghai University of Finance and Economics under
+          <a href="https://hesimin.com/" target="_blank" rel="noopener">Prof. Simin He</a>, where I worked on behavioral economics.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:zini.yang@duke.edu">Email</a>
+          <span>/</span>
+          <a href="assets/Zini_Yang_CV.pdf" target="_blank" rel="noopener">CV</a>
+          <span>/</span>
+          <a href="https://github.com/ZiniYang" target="_blank" rel="noopener">GitHub</a>
+          <span>/</span>
+          <a href="https://www.linkedin.com/in/zini-yang-6517102a0/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="research-interests">
+      <h2>Research Interests</h2>
+      <div class="paper-list">
+        <div class="paper-item">
+          <p class="paper-desc">
+            <strong>Social Science for Trustworthy AI:</strong> How can we better utilize social science (e.g., game theory, behavioral economics, and network science) to identify and evaluate the gaps between Large Language Models (LLMs) and human intelligence, and develop more socially aware, human-aligned LLMs?
+          </p>
+          <p class="paper-desc">
+            <strong>AI for Science and Social Good:</strong> How can AI be more effectively applied to scientific discovery and other high-impact domains (e.g., health), focusing on better information retrieval and data mining? How could we use LLMs as a human proxy for simulation?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="project-card">
+        <img src="assets/images/mathematics.png" alt="Inequality Ranking and Inference System (IRIS)" class="project-img" />
+        <div class="project-body">
+          <div class="paper-title">Inequality Ranking and Inference System (IRIS) — Giving Mathematical Conjectures Numerical Value</div>
+          <div class="paper-authors"><strong>Zini Yang</strong>, Ethan Fang, Junwei Lu</div>
+          <div class="paper-venue">ICML 2025 Workshop on AI for Math, 2025</div>
+          <p class="paper-desc">
+            We introduce the <strong>Inequality Ranking and Inference System (IRIS)</strong>, a system that quantifies and ranks mathematical
+            conjectures through sharpness, diversity, difficulty, and novelty metrics. By re-engineering the GraffitiAI pipeline,
+            IRIS scales conjecture evaluation and includes an automated counterexample discovery system using GNN embeddings and
+            PPO-based reinforcement learning, refuting 95% of tested conjectures.
+          </p>
+          <div class="paper-links">
+            <a href="https://openreview.net/pdf?id=v6Ulp3U1ZT" target="_blank" rel="noopener">[PDF]</a>
+            <a href="https://openreview.net/forum?id=v6Ulp3U1ZT" target="_blank" rel="noopener">[OpenReview]</a>
+          </div>
+          <div class="paper-keywords">
+            <strong>Keywords:</strong> AI for Science, Reinforcement Learning, Graph Neural Networks, Automated Reasoning
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Research Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <div class="project-body">
+            <div class="paper-title">LLMs Creativity Evaluation Benchmark</div>
+            <div class="paper-authors">Advisor: Dr. Emily Wenger, Dr. Richard So</div>
+            <div class="paper-venue">In preparation for ACL 2026</div>
+            <p class="paper-desc">
+              In this project, we observed that most existing evaluation methods rely solely on explicitly defined criteria, which limits their ability to meaningfully assess LLM creativity. To address this limitation, we proposed a method that incorporates human responses to better evaluate the LLM creativity. Our approach consists of two steps: 1) we create a boundary in the embedding space by identifying the smallest convex hull that contains human responses above a density threshold; 2) we introduce the LLM coverage rate, which measures the proportion of LLM outputs that fall within this human-response-grounded boundary. Across a range of tasks, including divergent thinking, code generation, and creative writing, our method exhibited strong generalizability: the LLM coverage rate consistently decreased as tasks required more detailed and thoughtful responses. This demonstrates that our human-response-grounded framework provides a better way to evaluate LLM creativity.
+            </p>
+            <div class="paper-keywords">
+              <strong>Keywords:</strong> Computational Social Science, NLP, Human-AI Interaction, Creativity Evaluation
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <div class="paper-title">LLM-Based Vaccine Warning System</div>
+            <div class="paper-authors">Advisor: Dr. Bhuwan Dhingra</div>
+            <div class="paper-venue">Ongoing Research</div>
+            <p class="paper-desc">
+             The project focuses on early detection of vaccine-related risks. Because news coverage tends to spike only after crises escalate, early warning signals buried in open-source data remain underutilized. To address this challenge, I developed an end-to-end pipeline that processes terabytes of Common Crawl data. To manage the computational scale, I implemented a FastText-based coarse filter, achieving ~60% precision while running over 1,000× faster than LLM-based classification. I then applied a locally hosted Qwen model for fine-grained labeling using carefully validated prompts and annotations. To enhance interpretability, I integrated UMAP-based clustering and LLM-generated summaries to reveal emerging discourse patterns.
+            </p>
+            <div class="paper-keywords">
+              <strong>Keywords:</strong> AI for Social Good, NLP, Large-scale Data Mining, Public Health
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <div class="paper-title">Data Protection Mechanism Design</div>
+            <div class="paper-authors">Advisor: Dr. Emily Wenger, Dr. Curtis R. Taylor</div>
+            <div class="paper-venue">Ongoing Research</div>
+            <p class="paper-desc">
+              This research addresses the asymmetry where data defenders possess less advanced technology than professional
+              scrapers. We formulate the protection problem as a dynamic game where protectors choose defense levels periodically
+              and attackers optimize attack timing. A Markov model over breach history analyzes evolving deterrence dynamics and
+              derives optimal strategies that maximize long-term defense efficiency.
+            </p>
+            <div class="paper-keywords">
+              <strong>Keywords:</strong> Game Theory, Information Economics, AI Security, Dynamic Modeling
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <div class="paper-title">Expectation Formation with Correlated Variables</div>
+            <div class="paper-authors">Research Assistant · Advisor: Dr. Simin He</div>
+            <div class="paper-venue">Experimental Study, 2022-2023</div>
+            <p class="paper-desc">
+            </p>
+            <div class="paper-keywords">
+              <strong>Keywords:</strong> Experimental Economics, Behavioral Economics, Econometrics
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <div class="paper-title">Public Goods in Network Formation Games</div>
+            <div class="paper-authors">Research Assistant · Advisor: Dr. Simin He</div>
+            <div class="paper-venue">Experimental Study, 2022</div>
+            <p class="paper-desc">
+            </p>
+            <div class="paper-keywords">
+              <strong>Keywords:</strong> Network Science, Experimental Economics, Game Theory, Public Goods
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
