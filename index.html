@@ -21,18 +21,19 @@
       <div class="profile-photo">
         <img src="assets/images/zini_new.jpg" alt="Zini Yang" class="profile-img" />
         <p class="profile-caption">MS @ Duke CS & Econ</p>
+        <p class="profile-caption profile-caption-secondary">BS @ SUFE Econ & Math</p>
       </div>
       <div class="header-content">
         <h1>Zini Yang</h1>
         <p class="bio">
-          I am a master's student in Computer Science and Economics at Duke University, working with
+          Hi! I am a master's student in Computer Science and Economics at Duke University, working with
           <a href="https://www.emilywenger.com/" target="_blank" rel="noopener">Dr. Emily Wenger</a> at the
           <a href="https://arguslab.pratt.duke.edu/" target="_blank" rel="noopener">Argus Lab</a>.
-          My research bridges computational social science and AI systems, focusing on game theory, behavioral economics,
+          My research bridges computational social science and AI, focusing on game theory, behavioral economics,
           and network science to build socially aware and trustworthy AI.
         </p>
         <p class="bio">
-          Previously, I studied mathematical economics at Shanghai University of Finance and Economics under
+          I completed my undergraduate studies in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under
           <a href="https://hesimin.com/" target="_blank" rel="noopener">Prof. Simin He</a>, where I worked on behavioral economics.
         </p>
         <div class="contact-links">
@@ -202,5 +203,48 @@
       </div>
     </div>
   </section>
+
+  <section id="news">
+    <div class="container">
+      <h2>News</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <div class="news-date">Aug 2025</div>
+          <div class="news-text">
+            Started MS in Computer Science and Economics at
+            <a href="https://duke.edu/" target="_blank" rel="noopener">Duke University</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var projects = document.getElementById("projects");
+      var topContainer = document.getElementById("top");
+      var teaching = document.getElementById("teaching");
+      if (!projects || !topContainer) return;
+
+      var nonProjectChildren = Array.prototype.filter.call(topContainer.children, function (el) {
+        return el !== projects;
+      });
+
+      function syncProjectsVisibility() {
+        var showProjects = window.location.hash === "#projects";
+        projects.hidden = !showProjects;
+        nonProjectChildren.forEach(function (el) {
+          el.hidden = showProjects;
+        });
+        if (teaching) teaching.hidden = showProjects;
+        if (showProjects) {
+          projects.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+
+      syncProjectsVisibility();
+      window.addEventListener("hashchange", syncProjectsVisibility);
+    })();
+  </script>
 </body>
 </html>
