@@ -18,7 +18,7 @@
 
 window.SITE_CONTENT = {
   seo: {
-    title: `Zini Yang | JHU Computer Science PhD`,
+    title: `Zini Yang`,
     description: `Zini Yang is a Computer Science PhD student at Johns Hopkins University computational social science and NLP.`,
     keywords: `Zini Yang, Johns Hopkins University, JHU, Computer Science, Trustworthy AI, Computational Social Science, Game Theory, Behavioral Economics, Network Science`,
   },
