@@ -381,6 +381,21 @@ section h2::before {
   color: var(--text-secondary);
 }
 
+#news {
+  margin-bottom: 0;
+}
+
+#news .news-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 32px;
+}
+
+#news .news-item {
+  grid-template-columns: 86px 1fr;
+  gap: 10px;
+}
+
 @media (max-width: 980px) {
   .container {
     padding: 38px 32px 72px;
@@ -396,6 +411,9 @@ section h2::before {
     grid-template-columns: 1fr;
   }
   .research-split {
+    grid-template-columns: 1fr;
+  }
+  #news .news-list {
     grid-template-columns: 1fr;
   }
 }

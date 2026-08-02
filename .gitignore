@@ -1,0 +1,3 @@
+# Keep original iPhone photos (which may contain private EXIF/GPS metadata) out of the public site.
+assets/images/*.HEIC
+assets/images/zini_jhu.jpg
