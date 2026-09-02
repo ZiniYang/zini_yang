@@ -213,7 +213,7 @@ section h2::before {
 }
 
 #research-interests .paper-item {
-  border-left: 3px solid var(--border);
+  border-left: none;
   background: var(--surface);
   box-shadow: none;
 }

@@ -18,7 +18,7 @@
 
 window.SITE_CONTENT = {
   seo: {
-    title: `Zini Yang`,
+    title: `Zini Yang | JHU Computer Science PhD`,
     description: `Zini Yang is a Computer Science PhD student at Johns Hopkins University computational social science and NLP.`,
     keywords: `Zini Yang, Johns Hopkins University, JHU, Computer Science, Trustworthy AI, Computational Social Science, Game Theory, Behavioral Economics, Network Science`,
   },
@@ -34,8 +34,8 @@ window.SITE_CONTENT = {
     ],
 
     bio: [
-      `Hi! I am a PhD student in Computer Science at Johns Hopkins University, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/). My research bridges computational social science and AI, focusing on game theory, behavioral economics, and network science to build socially aware and trustworthy AI.`,
-      `Before joining Johns Hopkins, I completed my master's studies in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/) at the [Argus Lab](https://arguslab.pratt.duke.edu/). I completed my undergraduate studies in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under [Prof. Simin He](https://hesimin.com/), where I worked on behavioral economics.`,
+      `Hi! This is Zini!! I am a PhD student in Computer Science at Johns Hopkins University, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/). My research bridges computational social science and NLP, focusing on AI for social science and AI's impact on human behavior!`,
+      `Before joining Johns Hopkins, I completed my master in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/). I completed my undergraduate in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under [Prof. Simin He](https://hesimin.com/), where I worked on behavioral economics.`,
     ],
 
     contacts: [
@@ -51,7 +51,7 @@ window.SITE_CONTENT = {
     interests: [
       {
         title: `Social Science for Trustworthy AI`,
-        description: `Utilize insights from game theory, behavioral economics, and network science to bridge the gaps between LLMs and human intelligence and build more socially aware, aligned models.`,
+        description: `Utilize insights from behavioral economics, and network science to bridge the gaps between LLMs and human intelligence and build more socially aware, aligned models.`,
       },
       {
         title: `AI for Science & Social Science`,
@@ -98,10 +98,25 @@ window.SITE_CONTENT = {
    */
   projects: [],
 
+  teaching: [
+    {
+      course: `COMPSCI 653: Human-Centered Computing`,
+      role: `Teaching Assistant`,
+      school: `Duke University`,
+      term: `Fall 2025`,
+    },
+    {
+      course: `COMPSCI 230: Discrete Mathematics for Computer Science`,
+      role: `Teaching Assistant`,
+      school: `Duke University`,
+      term: `Spring 2025`,
+    },
+  ],
+
   news: [
     {
       date: `Aug 2026`,
-      text: `Started my PhD in Computer Science at [Johns Hopkins University](https://www.jhu.edu/), advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/).`,
+      text: `Started my PhD in Computer Science at [Johns Hopkins University](https://www.jhu.edu/) 🎉, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/).`,
     },
     {
       date: `July 2026`,
