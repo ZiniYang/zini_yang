@@ -112,11 +112,6 @@
     var links = [
       { label: "Home", url: page === "home" ? "#top" : "index.html" },
       {
-        label: "Publications",
-        url: page === "publications" ? "#publications" : "publications.html",
-        show: content.publications.length > 0,
-      },
-      {
         label: "Projects",
         url: page === "home" ? "#projects" : "index.html#projects",
         show: content.projects.length > 0,

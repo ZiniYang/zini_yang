@@ -386,9 +386,9 @@ section h2::before {
 }
 
 #news .news-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 #news .news-item {
