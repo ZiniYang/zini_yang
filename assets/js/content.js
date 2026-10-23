@@ -35,13 +35,13 @@ window.SITE_CONTENT = {
 
     bio: [
       `Hi! This is Zini!! I am a PhD student in Computer Science at Johns Hopkins University, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/). My research bridges computational social science and NLP, focusing on AI for social science and AI's impact on human behavior!`,
-      `Before joining Johns Hopkins, I completed my master in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/). I completed my undergraduate in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under [Prof. Simin He](https://hesimin.com/), where I worked on behavioral economics.`,
+      `Before joining Johns Hopkins, I completed my master in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/). I completed my undergraduate in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under [Prof. Simin He](https://hesimin.com/).`,
     ],
 
     contacts: [
       { label: `Email`, url: `mailto:zyang181@jh.edu` },
-      { label: `CV`, url: `assets/Zini_Yang_CV_new.pdf` },
       { label: `GitHub`, url: `https://github.com/ZiniYang` },
+      { label: `Google Scholar`, url: `https://scholar.google.com/citations?user=kFMZHJIAAAAJ&hl=en` },
       { label: `LinkedIn`, url: `https://www.linkedin.com/in/zini-yang-6517102a0/` },
     ],
   },
@@ -50,12 +50,7 @@ window.SITE_CONTENT = {
     title: `Research Interests`,
     interests: [
       {
-        title: `Social Science for Trustworthy AI`,
-        description: `Utilize insights from behavioral economics, and network science to bridge the gaps between LLMs and human intelligence and build more socially aware, aligned models.`,
-      },
-      {
-        title: `AI for Science & Social Science`,
-        description: `Explore how AI can enhance scientific discovery and social science, improving modeling and simulations of human behavior.`,
+        description: `I am broadly interested in AI's impact on society, particularly how large language models can enhance human well-being. My current work focuses on developing NLP methods to measure human behavior and communication and inform interventions that enhance people's abilities.`,
       },
     ],
   },

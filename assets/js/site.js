@@ -204,10 +204,12 @@
     }
     var interests = research.interests
       .map(function (item) {
+        var title = item.title
+          ? "<strong>" + escapeHtml(item.title) + ":</strong> "
+          : "";
         return (
-          '<p class="paper-desc"><strong>' +
-          escapeHtml(item.title) +
-          ":</strong> " +
+          '<p class="paper-desc">' +
+          title +
           formatText(item.description) +
           "</p>"
         );
