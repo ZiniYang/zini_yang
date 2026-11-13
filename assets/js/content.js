@@ -35,7 +35,7 @@ window.SITE_CONTENT = {
 
     bio: [
       `Hi! This is Zini!! I am a PhD student in Computer Science at Johns Hopkins University, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/). My research bridges computational social science and NLP, focusing on AI for social science and AI's impact on human behavior!`,
-      `Before joining Johns Hopkins, I completed my master in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/). I completed my undergraduate in Mathematical Economics at Shanghai University of Finance and Economics (SUFE) under [Prof. Simin He](https://hesimin.com/).`,
+      `Before joining Johns Hopkins, I completed my master in Computer Science and Economics at Duke University, where I worked with [Prof. Emily Wenger](https://www.emilywenger.com/). I completed my undergraduate in Mathematical Economics at Shanghai University of Finance and Economics (SUFE).`,
     ],
 
     contacts: [
