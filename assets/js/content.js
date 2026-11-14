@@ -112,7 +112,7 @@ window.SITE_CONTENT = {
     },
     {
       date: `July 2026`,
-      text: `Presented research at [ICML Cultural AI Workshop 2026](https://www.doingaidifferently.org/culturexaiworkshop).`,
+      text: `Selected for an oral presentation at [ICML Cultural AI Workshop 2026](https://www.doingaidifferently.org/culturexaiworkshop).`,
     },
     {
       date: `Aug 2024`,
