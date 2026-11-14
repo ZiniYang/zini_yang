@@ -110,7 +110,6 @@
   function renderNav() {
     var page = document.body.getAttribute("data-page") || "home";
     var links = [
-      { label: "Home", url: page === "home" ? "#top" : "index.html" },
       {
         label: "Projects",
         url: page === "home" ? "#projects" : "index.html#projects",
@@ -125,7 +124,8 @@
         external: true,
       },
     ];
-    document.getElementById("site-nav").innerHTML = links
+    var nav = document.getElementById("site-nav");
+    nav.innerHTML = links
       .filter(function (link) {
         return link.show !== false && link.url;
       })
@@ -141,6 +141,7 @@
         );
       })
       .join("");
+    nav.hidden = !nav.childElementCount;
   }
 
   function renderProfile() {

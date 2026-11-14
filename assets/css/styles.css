@@ -70,6 +70,10 @@ nav {
   padding-bottom: 12px;
 }
 
+nav[hidden] {
+  display: none;
+}
+
 nav a {
   color: var(--text-secondary);
   text-decoration: none;
@@ -219,6 +223,7 @@ section h2::before {
 
 #research-interests .paper-item {
   border-left: none;
+  padding: 0;
   background: var(--surface);
   box-shadow: none;
 }

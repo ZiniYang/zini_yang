@@ -28,10 +28,7 @@ window.SITE_CONTENT = {
     photo: `assets/images/zini_jhu_cropped.jpg`,
     photoAlt: `Zini Yang`,
 
-    captions: [
-      `PhD @ JHU CS`,
-      `MS @ Duke CS & Econ`,
-    ],
+    captions: [],
 
     bio: [
       `Hi! This is Zini!! I am a PhD student in Computer Science at Johns Hopkins University, advised by [Prof. Kristina Gligorić](https://gligoric.cs.jhu.edu/). My research bridges computational social science and NLP, focusing on AI for social science and AI's impact on human behavior!`,
@@ -50,7 +47,7 @@ window.SITE_CONTENT = {
     title: `Research Interests`,
     interests: [
       {
-        description: `I am broadly interested in AI's impact on society, particularly how large language models can enhance human well-being. My current work focuses on developing NLP methods to measure human behavior and communication and inform interventions that enhance people's abilities.`,
+        description: `I am broadly interested in computational social science (CSS) and natural language processing (NLP). My current work focuses on developing NLP methods to measure human behavior and communication and inform interventions that enhance people's abilities.`,
       },
     ],
   },
